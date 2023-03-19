@@ -1,8 +1,8 @@
-sms-tools
+sse-tools
 ========= 
 
 
-Sound analysis/synthesis tools for music applications written in python (with a bit of C) plus complementary teaching materials.
+Simple sound effect tools for music applications written in python (with a bit of C) plus complementary teaching materials.
 
 How to use
 ----------
