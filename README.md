@@ -7,15 +7,11 @@ Simple sound effect tools for music applications written in python (with a bit o
 How to use
 ----------
 
-In order to use these tools you have to install python 3.* (recommended 3.10) and the following modules: <code>ipython</code>, <code>numpy</code>, <code>matplotlib</code>, <code>scipy</code>, and <code>cython</code>. 
+In order to use these tools you have to install python 3.* (recommended 3.10) and the following modules: <code>ipython</code>, <code>numpy</code>, <code>matplotlib</code>, <code>scipy</code>,  <code>cython</code>and <code>essentia</code>. 
 
 In Ubuntu you can install these modules by typing in the Terminal:
 
-<code>$ sudo apt-get install python-dev ipython python-numpy python-matplotlib python-scipy cython</code>
-
-In OSX you can install these modules by typing in the Terminal:
-
-<code>$ pip install ipython numpy matplotlib scipy cython</code>
+<code>$ pip install ipython numpy matplotlib scipy cython essentia</code>
 
 then, to use the tools, after downloading the whole package, you need to compile some C functions. For that you should go to the directory <code>software/models/utilFunctions_C</code> and type:</p>
 
