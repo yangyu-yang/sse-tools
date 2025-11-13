@@ -14,8 +14,8 @@ def sineTracking(pfreq, pmag, pphase, tfreq, freqDevOffset=20, freqDevSlope=0.01
 	Tracking sinusoids from one frame to the next
 	pfreq, pmag, pphase: frequencies and magnitude of current frame
 	tfreq: frequencies of incoming tracks from previous frame
-	freqDevOffset: minimum frequency deviation at 0Hz 
-	freqDevSlope: slope increase of minimum frequency deviation
+	freqDevOffset: maximum frequency deviation at 0Hz
+	freqDevSlope: slope increase of maximum frequency deviation
 	returns tfreqn, tmagn, tphasen: frequency, magnitude and phase of tracks
 	"""
 
